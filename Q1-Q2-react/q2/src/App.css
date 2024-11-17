@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #B0C4DE;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #00008B;
+}
+
+img{
+  border:black 7px solid;
+  border-radius: 18px;
+}
+
+button{
+  background-color: #FFFFF0;
+  border-radius: 10px;
+  margin: 2px;
+}
+button:hover{
+  background-color:#cececa ;
+  font-size: 15px;
+  
+}
+input{
+  margin: 1px;
+  border: #00008B 1.5px solid;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+
