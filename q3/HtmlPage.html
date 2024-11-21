@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>ניהול שעונים</title>
+</head>
+
+<body>
+    <h1>ניהול שעונים</h1>
+    <form id="clockForm">
+        <label>
+            שעות:
+            <input type="number" id="hours" min="0" max="23" required>
+        </label>
+        <label>
+            דקות:
+            <input type="number" id="minutes" min="0" max="59" required>
+        </label>
+        <label>
+            שניות:
+            <input type="number" id="seconds" min="0" max="59" required>
+        </label>
+        <label>
+            שם המדינה:
+            <input type="text" id="country" required>
+        </label>
+        <button type="submit">הוסף שעון</button>
+    </form>
+
+    <div id="clocks" class="clock-list"></div>
+
+    <script src="JavaScript.js"></script>
+</body>
+</html>
